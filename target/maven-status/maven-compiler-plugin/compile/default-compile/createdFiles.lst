@@ -1,0 +1,11 @@
+org\akjamie\test\entity\Flight.class
+org\akjamie\test\entity\Airline.class
+org\akjamie\test\service\FlightService.class
+org\akjamie\test\entity\CurrencyAmount.class
+org\akjamie\test\resource\FlightsResource.class
+org\akjamie\test\Application.class
+META-INF\spring-configuration-metadata.json
+org\akjamie\test\config\JpaConfig.class
+org\akjamie\test\repository\FlightRepository.class
+org\akjamie\test\entity\Plane.class
+org\akjamie\test\resource\FlightsResourceImpl.class
