@@ -1,6 +1,7 @@
 ---
 applications:
 - name: springboot-helloworld-cxf
+  buildpack: java_buildpack
   memory: 256m
   instances: 1
   host: springboot-helloworld-cxf
@@ -8,8 +9,5 @@ applications:
   services:
     - my_mysql
   env:
-    spring.profiles.active: prod
-    jndi-datasource-jdbc-url: jdbc:mysql://mysql-broker.local.pcfdev.io:3306/cf_1c718636_671d_4ba1_9fe5_1ebadfd5b392
-    jndi-datasource-jdbc-username: sYE45221YR8oYXhD
-    jndi-datasource-jdbc-password: ws8lqAR69U1fnfUN
+    spring.profiles.active: cloud
     

@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8082
   servlet-path: /cxf-test
 
 cxf:
@@ -13,7 +13,7 @@ cxf:
 spring:
   profiles:
     active:
-    - dev
+    - cloud
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     max-active: 5
@@ -29,3 +29,6 @@ spring:
     show-sql: true
     hibernate.ddl-auto: update
     database-platform: org.hibernate.dialect.MySQLDialect
+
+logging:
+  path: /logs/cxf.log
